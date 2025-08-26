@@ -44,7 +44,7 @@ Distance values are sent over **USART2 (115200 baud)** and can be monitored with
 ---
 
 ## Core Code
-`c
+```c
 // 1µs timer (TIM2 prescaler set for 1 MHz)
 static inline uint32_t micros(void) { return __HAL_TIM_GET_COUNTER(&htim2); }
 
