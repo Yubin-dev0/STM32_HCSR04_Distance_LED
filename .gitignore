@@ -1,0 +1,28 @@
+﻿# STM32CubeIDE / Eclipse
+*.launch
+*.log
+.settings/
+.metadata/
+*.mxproject
+*.ide/
+
+# Build artifacts
+/Debug/
+/Release/
+/build/
+/*.elf
+/*.bin
+/*.hex
+/*.map
+/*.list
+/*.out
+/*.o
+/*.d
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor backups
+*~
+*.swp
